@@ -18,9 +18,7 @@ Modifications are detailed below.
 
 
 - No status field present. In this project the API delete removes it from the database. Possible enhancement is adding a status field, so that deleting a product would mark it as inactive instead of deleting the data.
-
-
-- Added a BEANOFTHEDAY table to keep the history. May be useful for future analysis. 
+ 
 
 # Implementation Notes
 3.	Implement business logic to ensure:
