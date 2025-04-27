@@ -1,10 +1,10 @@
 # All The Beans - CoffeeBeanAPI
 
 # Technologies 
-- VS 2022
+- VISUAL STUDIO 2022
 - .NET CORE 8. The latest supported version of .NET CORE
 - SQL SERVER - A common relational database. I've used it extensively and had an instance ready to use. 
-- Entity Framework - Reliable library to handle the ORM and database interaction.   
+- ENTITY FRAMEWORK - Reliable library to handle ORM and database interaction.   
 
 # Considerations
 I started with a data first approach, based on the JSON data. Some JSON fields were modified when inserted into SQL server.
