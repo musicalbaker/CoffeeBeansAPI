@@ -38,7 +38,7 @@ The selected bean cannot be the same as the previous day.
 
 # Instructions
 - Create a SQL Server 2019+ instance 
-- Run the SLQSETUP.sql file as admin to create the database and insert the data. 
+- Run the SQL/SLQSETUP.sql file as admin to create the database and insert the data. 
 
 - Change the connection string in appsettings.json to match.<br>
   _"CoffeeProductContext": "data source={SQLSERVER};initial catalog=AllTheBeans;user Id=COFFEE_USER;Password=VWQKh9WP3Ctogh5KNhe9;TrustServerCertificate=True"_
