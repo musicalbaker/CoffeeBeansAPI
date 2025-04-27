@@ -29,11 +29,9 @@ The selected bean cannot be the same as the previous day.
 - The stored procedure [SP_BEANOFTHEDAY] will work for any day, past or future for maximum flexiblity. The assumption is that whatever application is calling the API beanoftheday would be passing the current date. 
 
 
-
 4.	Implement a database search feature to show products available
 - If no match found for the search term, it returns no products.
 - Can search by the following coffee bean properties: name, colour,description, country
-- It currently search by one field at a time. In future, it would be modified into a combined search. 
 
 
 # Instructions
@@ -43,5 +41,8 @@ The selected bean cannot be the same as the previous day.
 - Change the connection string in appsettings.json to match.<br>
   _"CoffeeProductContext": "data source={SQLSERVER};initial catalog=AllTheBeans;user Id=COFFEE_USER;Password=VWQKh9WP3Ctogh5KNhe9;TrustServerCertificate=True"_
   
-- Run the project from visual studio and try the API!
+- Run the project from visual studio.
 
+# Future Additions
+- API Unit Testing
+- Combined Search Feature
