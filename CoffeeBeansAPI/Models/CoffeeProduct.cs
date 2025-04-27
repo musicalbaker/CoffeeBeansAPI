@@ -17,7 +17,6 @@ namespace CoffeeBeansAPI.Models
         public bool IsBotd { get; set; }
 
         [Required]
-        [MaxLength(50)]
         public decimal Cost { get; set; }
 
         [MaxLength(500)]
